@@ -1,0 +1,25 @@
+footer {
+    height: 77px;
+    margin-top: 45px;
+}
+
+footer .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+footer .footer__text {
+    font-size: 14px;
+    line-height: 1.29;
+    color: #ffffff;
+}
+
+footer .footer__text {
+    width: 239px;
+    font-weight: normal;
+}
+
+footer .footer__text a:visited {
+    color: #fff;
+}

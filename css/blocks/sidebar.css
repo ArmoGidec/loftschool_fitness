@@ -1,0 +1,59 @@
+header .sidebar .sidebar__list {
+    list-style: none;
+    display: flex;
+    padding: 0;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item {
+    display: flex;
+    align-items: center;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item+.sidebar__list-item {
+    margin-left: 25px;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item .sidebar__link {
+    text-decoration: none;
+    font-size: 12px;
+    font-weight: bold;
+    line-height: 4.5;
+    letter-spacing: 1.2px;
+    color: #fff;
+    display: flex;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
+    content: " ";
+    width: 20px;
+    height: 18px;
+    margin: auto 15px auto 0;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item#main .sidebar__link::before {
+    background: url('/icons/main_icon.png') no-repeat;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item#feed .sidebar__link::before {
+    background: url('/icons/feed_icon.png') no-repeat;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item#service .sidebar__link::before {
+    background: url('/icons/service_icon.png') no-repeat;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link {
+    color: #f89513;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item#main.active .sidebar__link::before {
+    background: url('/icons/main_icon-active.png') no-repeat;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item#feed.active .sidebar__link::before {
+    background: url('/icons/feed_icon-active.png') no-repeat;
+}
+
+header .sidebar .sidebar__list .sidebar__list-item#service.active .sidebar__link::before {
+    background: url('/icons/service_icon-active.png') no-repeat;
+}

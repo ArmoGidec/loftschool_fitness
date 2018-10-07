@@ -1,0 +1,22 @@
+.partners {
+    width: 880px;
+    margin: 0 auto;
+}
+
+.partners .partners__list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 63px;
+    margin-bottom: 12px;
+}
+
+.partners .partners__list .partners__list-item {
+    flex: 1 1 33.33%;
+    padding: 25px 0;
+}
+
+.partners .partners__list .partners__list-item img {
+    max-height: 64px;
+    max-width: 160px;
+}

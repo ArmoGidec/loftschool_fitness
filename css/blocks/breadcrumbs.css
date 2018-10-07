@@ -1,0 +1,14 @@
+.breadcrumbs { 
+    width: 880px; 
+    margin: 0 auto;
+}
+
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item {
+    font-size: 14px;
+    font-style: italic;
+}
+
+.breadcrumbs .breadcrumbs__list .breadcrumbs__list-item + .breadcrumbs__list-item::before {
+    display: inline;
+    content: " / ";
+}

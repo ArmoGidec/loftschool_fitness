@@ -1,0 +1,43 @@
+.wrapper {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.container {
+    max-width: 1100px;
+    padding: 0 20px;
+    margin: 0 auto;
+    height: 100%;
+}
+
+.row { display: flex; }
+.d-block { display: block; }
+
+.justify-content-center { justify-content: center; }
+
+.text-center { text-align: center; }
+
+.bg-dark { background-color: #131415; }
+.color-white { color: #fff; }
+.color-gray { color: #656464; }
+.color-dark { color: #221f1f; }
+
+h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.fluid-img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.split-line {
+    box-sizing: border-box;
+    width: 95%;
+    height: 1px;
+    border: 1px solid #f5f5f5;
+}
+
+.nounderline { text-decoration: none; }
