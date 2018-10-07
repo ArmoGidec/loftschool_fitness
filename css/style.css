@@ -1,25 +1,25 @@
 /* fonts */
 @font-face {
     font-family: GoraFree;
-    src: url('/fonts/Gora-Free.ttf');
+    src: url('../../fonts/Gora-Free.ttf');
 }
 
 @font-face {
     font-family: OpenSans;
     font-weight: bold;
-    src: url('/fonts/OpenSans-Bold.ttf');
+    src: url('../../fonts/OpenSans-Bold.ttf');
 }
 
 @font-face {
     font-family: OpenSans;
     font-weight: italic;
-    src: url('/fonts/OpenSans-LightItalic.ttf');
+    src: url('../../fonts/OpenSans-LightItalic.ttf');
 }
 
 @font-face {
     font-family: OpenSans;
     font-weight: normal;
-    src: url('/fonts/OpenSans-Light.ttf');
+    src: url('../../fonts/OpenSans-Light.ttf');
 }
 
 b {
@@ -93,15 +93,15 @@ header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#main .sidebar__link::before {
-    background: url('/icons/main_icon.png') no-repeat;
+    background: url('../../icons/main_icon.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#feed .sidebar__link::before {
-    background: url('/icons/feed_icon.png') no-repeat;
+    background: url('../../icons/feed_icon.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#service .sidebar__link::before {
-    background: url('/icons/service_icon.png') no-repeat;
+    background: url('../../icons/service_icon.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link {
@@ -109,15 +109,15 @@ header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link {
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#main.active .sidebar__link::before {
-    background: url('/icons/main_icon-active.png') no-repeat;
+    background: url('../../icons/main_icon-active.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#feed.active .sidebar__link::before {
-    background: url('/icons/feed_icon-active.png') no-repeat;
+    background: url('../../icons/feed_icon-active.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#service.active .sidebar__link::before {
-    background: url('/icons/service_icon-active.png') no-repeat;
+    background: url('../../icons/service_icon-active.png') no-repeat;
 }
 
 
@@ -180,23 +180,23 @@ footer .socials .socials__title {
 }
 
 .socials .socials__list .socials__list-item.vk::before {
-    background-image: url('/icons/vk.png');
+    background-image: url('../../icons/vk.png');
 }
 
 .socials .socials__list .socials__list-item.fb::before {
-    background-image: url('/icons/fb.png');
+    background-image: url('../../icons/fb.png');
 }
 
 .socials .socials__list .socials__list-item.google::before {
-    background-image: url('/icons/google.png');
+    background-image: url('../../icons/google.png');
 }
 
 .socials .socials__list .socials__list-item.twitter::before {
-    background-image: url('/icons/twitter.png');
+    background-image: url('../../icons/twitter.png');
 }
 
 .socials .socials__list .socials__list-item.mail::before {
-    background-image: url('/icons/mail.png');
+    background-image: url('../../icons/mail.png');
 }
 
 /* Main content */

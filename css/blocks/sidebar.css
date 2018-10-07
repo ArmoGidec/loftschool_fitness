@@ -31,15 +31,15 @@ header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#main .sidebar__link::before {
-    background: url('/icons/main_icon.png') no-repeat;
+    background: url('../../icons/main_icon.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#feed .sidebar__link::before {
-    background: url('/icons/feed_icon.png') no-repeat;
+    background: url('../../icons/feed_icon.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#service .sidebar__link::before {
-    background: url('/icons/service_icon.png') no-repeat;
+    background: url('../../icons/service_icon.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link {
@@ -47,13 +47,13 @@ header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link {
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#main.active .sidebar__link::before {
-    background: url('/icons/main_icon-active.png') no-repeat;
+    background: url('../../icons/main_icon-active.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#feed.active .sidebar__link::before {
-    background: url('/icons/feed_icon-active.png') no-repeat;
+    background: url('../../icons/feed_icon-active.png') no-repeat;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#service.active .sidebar__link::before {
-    background: url('/icons/service_icon-active.png') no-repeat;
+    background: url('../../icons/service_icon-active.png') no-repeat;
 }

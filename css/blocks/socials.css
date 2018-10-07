@@ -28,21 +28,21 @@
 }
 
 .socials .socials__list .socials__list-item.vk::before {
-    background-image: url('/icons/vk.png');
+    background-image: url('../../icons/vk.png');
 }
 
 .socials .socials__list .socials__list-item.fb::before {
-    background-image: url('/icons/fb.png');
+    background-image: url('../../icons/fb.png');
 }
 
 .socials .socials__list .socials__list-item.google::before {
-    background-image: url('/icons/google.png');
+    background-image: url('../../icons/google.png');
 }
 
 .socials .socials__list .socials__list-item.twitter::before {
-    background-image: url('/icons/twitter.png');
+    background-image: url('../../icons/twitter.png');
 }
 
 .socials .socials__list .socials__list-item.mail::before {
-    background-image: url('/icons/mail.png');
+    background-image: url('../../icons/mail.png');
 }
