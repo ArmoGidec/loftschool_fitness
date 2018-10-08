@@ -88,11 +88,18 @@ ul {
     font-weight: bold;
     letter-spacing: 1.2px;
     text-transform: uppercase;
+    cursor: pointer;
 }
+
+.btn:hover { background-color: #f89513; }
 
 .section-title {
     margin: 0;
     font-size: 49px;
     line-height: 38px;
     letter-spacing: 1.5px;
+}
+
+.w-100 {
+    width: 100% !important;
 }
