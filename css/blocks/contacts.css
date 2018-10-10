@@ -4,7 +4,7 @@ header .contacts .contacts__phone {
     text-decoration: none;
 }
 
-header .contacts .contacts__shedule {
+header .contacts .contacts__schedule-link {
     margin-top: 5px;
     font-weight: bold;
     font-size: 14px;
@@ -12,4 +12,16 @@ header .contacts .contacts__shedule {
     color: rgba(248, 149, 19, 0.7);
 }
 
-header .contacts .contacts__shedule:hover { color: rgba(255, 255, 255, 0.7); }
+header .contacts .dropdown:hover .contacts__schedule-link { color: rgba(255, 255, 255, 0.7); }
+
+header .contacts .contacts__schedule {
+    padding: 17px 20px;
+    font-size: 14px;
+    line-height: 1.29;
+    color: #221f1f;
+}
+
+header .contacts .contacts__schedule .contacts__schedule-time {
+    font-weight: bold;
+    color: #f89513
+}
