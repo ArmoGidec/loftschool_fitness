@@ -71,5 +71,5 @@
 }
 
 .feedback__form .radio-group input[type="radio"]:checked ~ label { color: #f89513; }
-.feedback__form .radio-group input[type="radio"]:checked ~ .radio-btn { border-color: #f89513; }
-.feedback__form .radio-group input[type="radio"]:checked ~ .radio-btn::before { background-color: #f89513; }
+.feedback__form .radio-group input[type="radio"]:checked ~ label .radio-btn { border-color: #f89513; }
+.feedback__form .radio-group input[type="radio"]:checked ~ label .radio-btn::before { background-color: #f89513; }
