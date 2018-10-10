@@ -30,16 +30,20 @@ header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
     margin: auto 15px auto 0;
 }
 
+header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
+    background: url('../../icons/sidebar-sprite.png') no-repeat;
+}
+
 header .sidebar .sidebar__list .sidebar__list-item#main .sidebar__link::before {
-    background: url('../../icons/main_icon.png') no-repeat;
+    background-position: -5px -33px;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#feed .sidebar__link::before {
-    background: url('../../icons/feed_icon.png') no-repeat;
+    background-position: -5px -5px
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#service .sidebar__link::before {
-    background: url('../../icons/service_icon.png') no-repeat;
+    background-position: -65px -5px;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link, 
@@ -49,15 +53,15 @@ header .sidebar .sidebar__list .sidebar__list-item:hover .sidebar__link {
 
 header .sidebar .sidebar__list .sidebar__list-item#main.active .sidebar__link::before,
 header .sidebar .sidebar__list .sidebar__list-item#main:hover .sidebar__link::before {
-    background: url('../../icons/main_icon-active.png') no-repeat;
+    background-position-x: -34px;
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#feed.active .sidebar__link::before,
 header .sidebar .sidebar__list .sidebar__list-item#feed:hover .sidebar__link::before {
-    background: url('../../icons/feed_icon-active.png') no-repeat;
+    background-position-x: -35px; 
 }
 
 header .sidebar .sidebar__list .sidebar__list-item#service.active .sidebar__link::before,
 header .sidebar .sidebar__list .sidebar__list-item#service:hover .sidebar__link::before {
-    background: url('../../icons/service_icon-active.png') no-repeat;
+    background-position-y: -29px;
 }
