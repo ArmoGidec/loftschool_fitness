@@ -1,12 +1,14 @@
 @import url('./layout/fonts.css');
 @import url('./layout/normilize.min.css');
 @import url('./layout/base.css');
+@import url('./layout/animation.css');
 
 @import url('./blocks/header.css');
 @import url('./blocks/sidebar.css');
 @import url('./blocks/contacts.css');
 @import url('./blocks/dropdown.css');
 
+@import url('./blocks/canvas.css');
 @import url('./blocks/slogan.css');
 @import url('./blocks/breadcrumbs.css');
 @import url('./blocks/speciality.css');
