@@ -1,10 +1,12 @@
 .info-block { 
-    margin: 30px auto;
+    margin: 44px 0 29px 0;
+    background: url('../../img/Rectangle 1.png') bottom right;
+    background-size: cover;
 }
 
 .info-block .info-block__text {
-    padding: 30px 222px 34px 185px;
-    background: url('../../img/Rectangle 1.png') no-repeat center center;
+    z-index: 10;
+    padding: 30px 6px 24px 6px;
     font-size: 18px;
     letter-spacing: normal;
     line-height: 1.67;
