@@ -1,67 +1,64 @@
-header .sidebar .sidebar__list {
+.sidebar .sidebar__list {
     list-style: none;
     display: flex;
     padding: 0;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item {
+.sidebar .sidebar__list .sidebar__list-item {
     display: flex;
     align-items: center;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item+.sidebar__list-item {
-    margin-left: 25px;
-}
-
-header .sidebar .sidebar__list .sidebar__list-item .sidebar__link {
+.sidebar .sidebar__list .sidebar__list-item .sidebar__link {
     text-decoration: none;
     font-size: 12px;
     font-weight: bold;
-    line-height: 4.5;
+    line-height: 44px;
     letter-spacing: 1.2px;
-    color: #fff;
+    color: #221f1f;
     display: flex;
+    margin: 0 auto;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
     content: " ";
     width: 20px;
     height: 18px;
     margin: auto 15px auto 0;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item .sidebar__link::before {
     background: url('../../icons/sidebar-sprite.png') no-repeat;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item#main .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item#main .sidebar__link::before {
     background-position: -5px -33px;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item#feed .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item#feed .sidebar__link::before {
     background-position: -5px -5px
 }
 
-header .sidebar .sidebar__list .sidebar__list-item#service .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item#service .sidebar__link::before {
     background-position: -65px -5px;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item.active .sidebar__link, 
-header .sidebar .sidebar__list .sidebar__list-item:hover .sidebar__link {
+.sidebar .sidebar__list .sidebar__list-item.active .sidebar__link, 
+.sidebar .sidebar__list .sidebar__list-item:hover .sidebar__link {
     color: #f89513;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item#main.active .sidebar__link::before,
-header .sidebar .sidebar__list .sidebar__list-item#main:hover .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item#main.active .sidebar__link::before,
+.sidebar .sidebar__list .sidebar__list-item#main:hover .sidebar__link::before {
     background-position-x: -34px;
 }
 
-header .sidebar .sidebar__list .sidebar__list-item#feed.active .sidebar__link::before,
-header .sidebar .sidebar__list .sidebar__list-item#feed:hover .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item#feed.active .sidebar__link::before,
+.sidebar .sidebar__list .sidebar__list-item#feed:hover .sidebar__link::before {
     background-position-x: -35px; 
 }
 
-header .sidebar .sidebar__list .sidebar__list-item#service.active .sidebar__link::before,
-header .sidebar .sidebar__list .sidebar__list-item#service:hover .sidebar__link::before {
+.sidebar .sidebar__list .sidebar__list-item#service.active .sidebar__link::before,
+.sidebar .sidebar__list .sidebar__list-item#service:hover .sidebar__link::before {
     background-position-y: -29px;
 }

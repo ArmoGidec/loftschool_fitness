@@ -1,0 +1,10 @@
+.page-content {
+    display: flex;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.page-content .additional-content {
+    width: 316px;
+}
+

@@ -1,10 +1,10 @@
-#news-block .top-news { 
-    margin-left: 27px; 
+.top-news { 
+    margin-bottom: 50px;
 }
 
-#news-block .top-news .top-news__title { margin-bottom: 24px; }
+.top-news .top-news__title { margin-bottom: 24px; }
 
-#news-block .top-news .top-news__title span {
+.top-news .top-news__title span {
     font-weight: bold;
     font-size: 12px;
     line-height: 21px;
@@ -12,6 +12,9 @@
     text-transform: uppercase;
 }
 
-#news-block .top-news .top-news__list .top-news__list-item + .top-news__list-item { margin-top: 20px; }
+.top-news .top-news__list .top-news__list-item + .top-news__list-item { margin-top: 20px; }
 
-#news-block .top-news .top-news__list .top-news__list-item { width: 160px; }
+.top-news .top-news__list .top-news__list-item { 
+    width: 170.1px; 
+    margin: 0 auto;
+}

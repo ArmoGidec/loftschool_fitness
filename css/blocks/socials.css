@@ -1,9 +1,8 @@
 .socials .socials__title {
+    font-size: 14px;
     font-weight: bold;
     margin-bottom: 8px;
 }
-
-.socials .socials__list { display: flex; }
 
 .socials .socials__list .socials__list-item + .socials__list-item { margin-left: 10px;}
 
@@ -12,7 +11,6 @@
     width: 20px;
     height: 20px;
     border-radius: 50%;
-    background-color: #d0d0d0;
 }
 
 .socials .socials__list .socials__list-item .socials__link:hover { background-color: #f89513}
