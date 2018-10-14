@@ -33,6 +33,12 @@
 
 .feedback__form textarea { padding: 10px 10px; }
 
+.feedback__form input[type="text"]:focus, 
+.feedback__form textarea:focus { 
+    outline: none;
+    border: solid 1px #f89513
+}
+
 .feedback__form .input-wrapper { margin-top: 10px; }
 .feedback__form .btn { margin-top: 10px; }
 
